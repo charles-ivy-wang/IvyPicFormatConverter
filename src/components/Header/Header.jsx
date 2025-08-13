@@ -1,15 +1,19 @@
-import React from 'react'
-import "./Header.css"
+import React from "react";
+import "./Header.css";
+import { assets } from "../../assets/assets";
 
 const Header = () => {
   return (
-    <div className='Main'>
-      <div className='home-button'>
-        {/* <img src="" alt="" /> */}
-        <p>link placeholder</p>
+    <div className="main-container">
+      <div className="home-button">
+        <img src={assets.home} alt="" />
+      </div>
+
+      <div className="desdoc-button">
+        <img src={assets.info} alt="" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
