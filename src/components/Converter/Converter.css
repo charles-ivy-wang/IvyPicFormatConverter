@@ -1,5 +1,7 @@
 .card-container {
-  background-color: aqua;
-  position: absolute;
-  z-index:10;
+  background-color: transparent;
+  position: relative;
+  z-index:3;
+  margin-top: 80px ;
+  height: 100vh;
 }
