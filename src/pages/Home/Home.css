@@ -1,5 +1,7 @@
 .div {
   display: flex;
   background-color: transparent;
+  align-items: center;
+  flex-direction: row;
   /* justify-content: center; */
 }

@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Home.css"
 import Header from '../../components/Header/Header'
-import Conveter from '../../components/Converter/Conveter'
+import Converter from '../../components/Converter/Converter'
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <Conveter />
+      <Converter />
     </div>
   )
 }
